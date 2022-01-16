@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+
+* {
+ padding: 0;
+ margin: 0;
+}
+
+body {
+ margin-top: 6vw;
+ background-color: #7002c4;
+ color: white;
+}
+
+.anything,.anything1{
+ position: relative;
+}
+
+section.playerbox,
+section.computerbox {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 0px;
+ position: relative;
+}
+
+.computerbox {
+ margin-bottom: 8vw;
+}
+
+div.playerbox,
+#computerbox,
+div.playerbox1,
+div.computerbox1 {
+ font-size: 4.8vw;
+ font-family: 'Readex Pro', sans-serif;
+ 
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ grid-template-columns: auto auto auto auto auto;
+ grid-template-rows: auto auto auto auto auto;
+ border:  0.5vw solid black;
+ box-shadow: 0px 0px 1px 0.111px black;
+}
+
+
+.box {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 13vw;
+ height: 13vw;
+ border: 0.5vw solid black;
+}
+
+
+button[type=button] {
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ width: 13.55vw;
+ height: 13.55vw;
+ border: 0.2vw solid black;
+ background-color: #0080ab;
+ box-shadow: 0px 0px 0.2vw 0.055vw black;
+}
+
+section.playerbox1 {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 0px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ opacity: 0%;
+}
+
+div.playerbox1x {
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ grid-template-columns: auto auto auto auto auto;
+ grid-template-rows: auto auto auto auto auto;
+ border:  0.5vw solid black;
+ font-size: 7.2vw;
+ font-family: 'Readex Pro', sans-serif;
+ 
+}
+
+section.playerbox1x {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 0px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+
+
+}
+
+/* section.computerbox1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px;
+  position: absolute;
+  top: (40px+);
+  left: 6vw;
+  opacity: 100%;
+
+} */
+section.number {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 20px;
+}
+
+section.number div {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+#value {
+ margin-right: 20vw;
+ font-family: 'Readex Pro', sans-serif;
+ font-size: 3.3vw;
+}
+
+.start {
+ margin-top: 3vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+#start {
+ font-size: 2.5vw;
+ height: 6vw;
+ width: auto;
+ padding: 2vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 3vw;
+}
+
+#inputit {
+font-size: 2.5vw;
+height: 6vw;
+width: auto;
+padding: 2vw;
+display: flex;
+justify-content: center;
+align-items: center;
+ margin-top: 4vw;
+ margin-right: 8vw;
+}
+
+#computerinput {
+font-size: 2.5vw;
+height: 6vw;
+width: auto;
+padding: 2vw;
+display: flex;
+justify-content: center;
+align-items: center;
+ margin-top: 4vw;
+ margin-left: 8vw;
+}
+
+#reset {
+ font-size: 2.5vw;
+ height: 6vw;
+ width: auto;
+ padding: 2vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.confirm {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 2.5vw;
+}
+
+.input {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+
+#info {
+ margin-left: 20vw;
+font-size: 2.5vw;
+height: 6vw;
+width: auto;
+padding: 2vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#shuffle {
+ margin-right: 20vw;
+ font-size: 2.5vw;
+ height: 6vw;
+ width: auto;
+ padding: 2vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+div.computerbox2x {
+ display: grid;
+ justify-content: center;
+ align-items: center;
+ grid-template-columns: auto auto auto auto auto;
+ grid-template-rows: auto auto auto auto auto;
+ border:  0.5vw solid black;
+ font-size: 4.8vw;
+ font-family: 'Readex Pro', sans-serif;
+}
+
+section.computerbox2x {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 0px;
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#number {
+ margin-left: 1.1vw;
+}
+
+.cbingo {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 1.5vw;
+ font-size: 5vw;
+ font-family: 'Bakbak One', serif;
+}
+
+#infoview {
+ margin-left: 5vw;
+ margin-bottom: 4vw;
+}
+
+#infoview ul li {
+ margin-bottom: 5px;
+}
+
+#result {
+ font-family: 'Bakbak One', serif;
+ font-size: 4vw;
+}
+
+#foot {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 5vw;
+ font-size: 5vw;
+ font-family: 'Bakbak One', serif;
+}
+
+#reset a{
+ text-decoration: none;
+ color:white;
+}

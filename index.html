@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" conn10t="IE=Edge">
+ <meta name="viewport" conn10t="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="style.css">
+ <script src="operation.js" defer></script>
+ <title>BINGO</title>
+</head>
+
+<body>
+
+ <audio id="losing">
+  <source src="losing.mp3" type="audio/mp3" />
+ </audio>
+ <audio id="winning">
+  <source src="winning.mp3" type="audio/mp3" />
+ </audio>
+
+ <div class="cbingo" id="yourbingo">
+  <p>YOURS BINGO BOX</p>
+ </div>
+ <div class="anything1">
+  
+ <section class="playerbox">
+  <div class="playerbox">
+   <div class="box" id="n1"></div>
+   <div class="box" id="n2"></div>
+   <div class="box" id="n3"></div>
+   <div class="box" id="n4"></div>
+   <div class="box" id="n5"></div>
+   <div class="box" id="n6"></div>
+   <div class="box" id="n7"></div>
+   <div class="box" id="n8"></div>
+   <div class="box" id="n9"></div>
+   <div class="box" id="n10"></div>
+   <div class="box" id="n11"></div>
+   <div class="box" id="n12"></div>
+   <div class="box" id="n13"></div>
+   <div class="box" id="n14"></div>
+   <div class="box" id="n15"></div>
+   <div class="box" id="n16"></div>
+   <div class="box" id="n17"></div>
+   <div class="box" id="n18"></div>
+   <div class="box" id="n19"></div>
+   <div class="box" id="n20"></div>
+   <div class="box" id="n21"></div>
+   <div class="box" id="n22"></div>
+   <div class="box" id="n23"></div>
+   <div class="box" id="n24"></div>
+   <div class="box" id="n25"></div>
+  </div>
+ </section>
+ <section class="playerbox1x">
+  <div class="playerbox1x">
+   <div class="box" id="n1x">X</div>
+   <div class="box" id="n2x">X</div>
+   <div class="box" id="n3x">X</div>
+   <div class="box" id="n4x">X</div>
+   <div class="box" id="n5x">X</div>
+   <div class="box" id="n6x">X</div>
+   <div class="box" id="n7x">X</div>
+   <div class="box" id="n8x">X</div>
+   <div class="box" id="n9x">X</div>
+   <div class="box" id="n10x">X</div>
+   <div class="box" id="n11x">X</div>
+   <div class="box" id="n12x">X</div>
+   <div class="box" id="n13x">X</div>
+   <div class="box" id="n14x">X</div>
+   <div class="box" id="n15x">X</div>
+   <div class="box" id="n16x">X</div>
+   <div class="box" id="n17x">X</div>
+   <div class="box" id="n18x">X</div>
+   <div class="box" id="n19x">X</div>
+   <div class="box" id="n20x">X</div>
+   <div class="box" id="n21x">X</div>
+   <div class="box" id="n22x">X</div>
+   <div class="box" id="n23x">X</div>
+   <div class="box" id="n24x">X</div>
+   <div class="box" id="n25x">X</div>
+  </div>
+ </section>
+ <section class="playerbox1" id="cont1">
+  <div class="playerbox1">
+   <button class="button" type="button" id="n1b">1</button>
+   <button class="button" type="button" id="n2b">2</button>
+   <button class="button" type="button" id="n3b">3</button>
+   <button class="button" type="button" id="n4b">4</button>
+   <button class="button" type="button" id="n5b">5</button>
+   <button class="button" type="button" id="n6b">6</button>
+   <button class="button" type="button" id="n7b">7</button>
+   <button class="button" type="button" id="n8b">8</button>
+   <button class="button" type="button" id="n9b">9</button>
+   <button class="button" type="button" id="n10b">10</button>
+   <button class="button" type="button" id="n11b">11</button>
+   <button class="button" type="button" id="n12b">12</button>
+   <button class="button" type="button" id="n13b">13</button>
+   <button class="button" type="button" id="n14b">14</button>
+   <button class="button" type="button" id="n15b">15</button>
+   <button class="button" type="button" id="n16b">16</button>
+   <button class="button" type="button" id="n17b">17</button>
+   <button class="button" type="button" id="n18b">18</button>
+   <button class="button" type="button" id="n19b">19</button>
+   <button class="button" type="button" id="n20b">20</button>
+   <button class="button" type="button" id="n21b">21</button>
+   <button class="button" type="button" id="n22b">22</button>
+   <button class="button" type="button" id="n23b">23</button>
+   <button class="button" type="button" id="n24b">24</button>
+   <button class="button" type="button" id="n25b">25</button>
+  </div>
+ </section>
+ <section class="playerbox1" id="cont2">
+  <div class="playerbox1">
+   <button class="button" type="button" id="n1bt">1</button>
+   <button class="button" type="button" id="n2bt">2</button>
+   <button class="button" type="button" id="n3bt">3</button>
+   <button class="button" type="button" id="n4bt">4</button>
+   <button class="button" type="button" id="n5bt">5</button>
+   <button class="button" type="button" id="n6bt">6</button>
+   <button class="button" type="button" id="n7bt">7</button>
+   <button class="button" type="button" id="n8bt">8</button>
+   <button class="button" type="button" id="n9bt">9</button>
+   <button class="button" type="button" id="n10bt">10</button>
+   <button class="button" type="button" id="n11bt">11</button>
+   <button class="button" type="button" id="n12bt">12</button>
+   <button class="button" type="button" id="n13bt">13</button>
+   <button class="button" type="button" id="n14bt">14</button>
+   <button class="button" type="button" id="n15bt">15</button>
+   <button class="button" type="button" id="n16bt">16</button>
+   <button class="button" type="button" id="n17bt">17</button>
+   <button class="button" type="button" id="n18bt">18</button>
+   <button class="button" type="button" id="n19bt">19</button>
+   <button class="button" type="button" id="n20bt">20</button>
+   <button class="button" type="button" id="n21bt">21</button>
+   <button class="button" type="button" id="n22bt">22</button>
+   <button class="button" type="button" id="n23bt">23</button>
+   <button class="button" type="button" id="n24bt">24</button>
+   <button class="button" type="button" id="n25bt">25</button>
+  </div>
+ </section>
+ </div>
+ 
+ <div class="confirm">
+  <button type="button" id="shuffle">SHUFFLE</button>
+  <button type="button" id="info">HELP</button>
+ </div>
+ <div class="start">
+  <div id="result">
+   RESULT
+  </div>
+  <button type="button" id="start">START</button>
+  <div class="input">
+   <button type="button" id="inputit">PLAYER INPUT</button>
+   <button type="button" id="computerinput">COMPUTER INPUT</button>
+  </div>
+ </div>
+ <section class="number">
+  <div id="value">
+   CHOOSEN NUMBER:<div id="number">NONE</div>
+  </div>
+  <button type="button" id="reset"><a href="/">RESET</a></button>
+ </section>
+ <div class="cbingo" id="computerbingo">
+  <p>COMPUTER'S BINGO BOX</p>
+ </div>
+ <div class="anything">
+  
+ <section class="computerbox">
+  <div id="computerbox">
+   <div class="box" id="nc1"></div>
+   <div class="box" id="nc2"></div>
+   <div class="box" id="nc3"></div>
+   <div class="box" id="nc4"></div>
+   <div class="box" id="nc5"></div>
+   <div class="box" id="nc6"></div>
+   <div class="box" id="nc7"></div>
+   <div class="box" id="nc8"></div>
+   <div class="box" id="nc9"></div>
+   <div class="box" id="nc10"></div>
+   <div class="box" id="nc11"></div>
+   <div class="box" id="nc12"></div>
+   <div class="box" id="nc13"></div>
+   <div class="box" id="nc14"></div>
+   <div class="box" id="nc15"></div>
+   <div class="box" id="nc16"></div>
+   <div class="box" id="nc17"></div>
+   <div class="box" id="nc18"></div>
+   <div class="box" id="nc19"></div>
+   <div class="box" id="nc20"></div>
+   <div class="box" id="nc21"></div>
+   <div class="box" id="nc22"></div>
+   <div class="box" id="nc23"></div>
+   <div class="box" id="nc24"></div>
+   <div class="box" id="nc25"></div>
+  </div>
+ </section>
+ <section class="computerbox2x">
+  <div class="computerbox2x" id="computerbox2x">
+   <div class="box" id="n1xc">X</div>
+   <div class="box" id="n2xc">X</div>
+   <div class="box" id="n3xc">X</div>
+   <div class="box" id="n4xc">X</div>
+   <div class="box" id="n5xc">X</div>
+   <div class="box" id="n6xc">X</div>
+   <div class="box" id="n7xc">X</div>
+   <div class="box" id="n8xc">X</div>
+   <div class="box" id="n9xc">X</div>
+   <div class="box" id="n10xc">X</div>
+   <div class="box" id="n11xc">X</div>
+   <div class="box" id="n12xc">X</div>
+   <div class="box" id="n13xc">X</div>
+   <div class="box" id="n14xc">X</div>
+   <div class="box" id="n15xc">X</div>
+   <div class="box" id="n16xc">X</div>
+   <div class="box" id="n17xc">X</div>
+   <div class="box" id="n18xc">X</div>
+   <div class="box" id="n19xc">X</div>
+   <div class="box" id="n20xc">X</div>
+   <div class="box" id="n21xc">X</div>
+   <div class="box" id="n22xc">X</div>
+   <div class="box" id="n23xc">X</div>
+   <div class="box" id="n24xc">X</div>
+   <div class="box" id="n25xc">X</div>
+  </div>
+ </section>
+ </div>
+ 
+ 
+ <section id="infoview">
+  <ul>
+   <label for="INFORMATION">INFORMATION</label>
+   <li>You can Click On the Chamber of yours bingo box to input the Number.</li>
+   <li>If you Don't want to enter the Value then You can use <b>SHUFFLE</b> Button to Enter the random Numbers quickly.</li>
+   <li>After You have Entered the Numbers then You can start the Match By Clicking in <b>START</b> Button.</li>
+   <li>Now Player can input the Number,HE/SHE wants to Choose By simply clicking in <b>PLAYER INPUT</b> Button.</li>
+   <li>OR You can choose the number By simply clicking on the chamber below YOURS BINGO,which Number you want to choose.</li>
+   <li>After Choosing Some by any mean Now you have to click on <b>COMPUTER INPUT</b> Button to Give the Permission to Computer to choose a Number.</li>
+   <li>After Finishing the Match Now you can reset by clicking on <b>RESET</b> Button.</li>
+  </ul>
+ </section>
+ <footer id="foot">
+  MADE BY HARSH
+ </footer>
+</body>
+
+</html>
